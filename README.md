@@ -1,6 +1,8 @@
 <div>
-<img src="img/Princeton_logo.png" width="200" align="left"/>
+<img src="img/Princeton_logo.png" width="150" align="left"/>
 </div>
+
+<br>
 
 <div>
 <img src="img/IRIS-HEP_logo.png" width="150" align="right"/>
@@ -8,6 +10,7 @@
 
 # Awkward Just-In-Time (JIT) Compilation: A Developer’s Experience
 
+## Abstract
 
 Awkward Array is a library for performing NumPy-like computations on nested, variable-sized data, enabling array-oriented programming on arbitrary data structures in Python. However, imperative (procedural) solutions can sometimes be easier to write or faster to run. Performant imperative programming requires compilation; JIT-compilation makes it convenient to compile in an interactive Python environment.
 
@@ -22,9 +25,12 @@ We discuss the techniques used to achieve the Awkward Arrays acceleration with J
 * Header-only libraries for populating Awkward Arrays from C++ without any Python dependencies
 
 ## Authors
+
 Angus Hollands, Ioana Ifrim, Ianna Osborne, Jim Pivarski, Henry Schreiner
 
-Princeton University, Princeton, NJ 08544, USA
+Princeton University,
+Princeton, NJ 08544, USA
+
 
 ## Acknowledgements
 <div>
